@@ -36,6 +36,13 @@ Use the batch pipeline to download submissions and create meta-reviews in one pa
             ICLR.cc/2026/Conference \
             --role ac \
     ```
+    If use azure api
+    ```
+    python -m meta_review_pipeline.batch_meta_review \
+            ICLR.cc/2026/Conference \
+            --role ac \
+            --api azure
+    ```
 - **Authors**
     ```
     python -m meta_review_pipeline.batch_meta_review \
