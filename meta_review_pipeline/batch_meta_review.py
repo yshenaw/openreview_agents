@@ -104,7 +104,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--api",
         choices=["azure", "openai"],
-        default="azure",
+        default="openai",
         help="LLM provider to use for both generation and evaluation (default: azure)",
     )
     parser.add_argument(
