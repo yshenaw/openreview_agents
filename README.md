@@ -24,6 +24,7 @@ pip install -r requirements.txt
         az login
         ```
     - Update the deployment and endpoint settings in `AzureOpenAIClient` within the same module.
+    - Add `--api azure` 
 
 ## Meta-review Generation
 
