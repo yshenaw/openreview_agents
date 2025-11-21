@@ -34,7 +34,7 @@ Use the batch pipeline to download submissions and create meta-reviews in one pa
     ```
     python -m meta_review_pipeline.batch_meta_review \
             ICLR.cc/2026/Conference \
-            --role ac \
+            --role ac
     ```
     The default output repository is `./outputs/generated_meta_reviews/`
   
@@ -49,7 +49,7 @@ Use the batch pipeline to download submissions and create meta-reviews in one pa
     ```
     python -m meta_review_pipeline.batch_meta_review \
             ICLR.cc/2026/Conference \
-            --role author \
+            --role author 
     ```
     Add `--no-rebuttal` if the rebuttal phase has not yet occurred.
 - **Audience / Spectators**
@@ -57,13 +57,13 @@ Use the batch pipeline to download submissions and create meta-reviews in one pa
     python -m meta_review_pipeline.batch_meta_review \
             ICLR.cc/2026/Conference \
             --role audience \
-            --forum-id VaS6xcDrTb, tcsZt9ZNKD \
+            --forum-id VaS6xcDrTb, tcsZt9ZNKD 
     ```
 - **Generate from an exiting folder**
     ```
     python -m meta_review_pipeline.batch_meta_review \
             ICLR.cc/2026/Conference \
-            --submission-folder outputs/xxxxxx \
+            --submission-folder outputs/xxxxxx 
     ```
 
 
