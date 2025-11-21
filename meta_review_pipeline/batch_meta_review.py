@@ -264,8 +264,8 @@ def main() -> None:
 
     generator = MetaReviewGenerator(api=args.api) if tasks_generate else None
     score_statement = (
-        "The score is indicated by the overall recommendation on a scale from 1 to 5, "
-        "with 1 being the lowest and 5 being the highest. 2 is the borderline reject and 3 is the borderline accept."
+        "The score is indicated by the overall recommendation on a scale from 1 to 10, "
+        "with 1 being the lowest and 5 being the highest. 4 is the borderline reject and 6 is the borderline accept."
     )
 
     stats: Dict[str, object] = {
